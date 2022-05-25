@@ -1,0 +1,108 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.container {
+  position: absolute;
+  width: 100%;
+  height: 935px;
+  background: #ffffff;
+}
+.container .sidebar {
+  background-color: #191718;
+  height: 935px;
+  float: left;
+  width: 10%;
+}
+.container .content {
+  justify-content: center;
+  float: left;
+  align-items: center;
+  width: 70%;
+  height: 935px;
+}
+.sidebar a {
+  line-height: 18.75px;
+  font-weight: 700;
+  padding: 44px;
+  border-bottom: 1px solid #5c5c5c;
+  color: #aaaaaa;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+.sidebar #hover {
+  color: #fff;
+}
+
+.sidebar a.active {
+  background-color: #5c5c5c;
+  color: #fff;
+}
+
+.content .img1 {
+  width: 310px;
+  display: block;
+  margin-left: 529px;
+  margin-right: 529px;
+  margin-top: 20px;
+  height: 122px;
+}
+
+.content .content-text {
+  width: 100%;
+  margin-left: 150px;
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+  height: 210px;
+  background: #efefef;
+  font-size: 16px;
+}
+.content-text p,
+h3 {
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content-text .group {
+  float: left;
+  width: 100%;
+  margin-top: 70px;
+  height: 252px;
+  color: #000000;
+  /* background: red; */
+}
+
+.group .group1 {
+  float: left;
+  width: 30%;
+  display: block;
+}
+.group1 h3 {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  line-height: 28px;
+}
+.group1 p {
+  font-size: 14px;
+  
+}
+.group .group1 img {
+  width: 128px;
+  left: 350px;
+  float: left;
+  height: 128px;
+}
+.container .footer {
+margin-top: 56%;
+margin-right: 250px;
+margin-left: 200px;
+
+
+}
